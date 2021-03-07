@@ -1,0 +1,16 @@
+package lab07;
+public class Bakery extends Shop {
+    private String[] Products = {"Droźdżówka, kremówka papieskia, bułka, bagietka"};
+    Bakery(String Address, String Size) {
+        super(Adress, Size);
+    }
+
+    @Override
+    public void get_Info() {
+        super.get_Info();
+        System.out.println("Produkty: ");
+        for (String pr : Products) {
+            System.out.println(pr);
+        }
+    }
+}
