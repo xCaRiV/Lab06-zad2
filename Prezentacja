@@ -1,0 +1,11 @@
+package lab07-zad2;
+public class Prezentacja {
+    public static void main(String[] args) {
+        Bakery Bakery = new Bakery("ul. Piekarnicza 21", "40");
+        Bakery.get_Info();
+        Bookshop Bookshop = new Bookshop("ul. Czytelnicza 17", "225");
+        Bookshop.get_Info();
+        Shop Shop = new Shop("ul. Targowa 5a", "95");
+        Shop.get_Info();
+    }
+}
