@@ -1,0 +1,16 @@
+package lab07-zad2;
+public class Bookshop extends Shop {
+    private String[] Products = {"Minecraft: Poradnik budowniczych", "Minecraft: Poradnik wojowników", "Minecraft: Poradnik inżynierów"};
+    Bookshop(String Address, String Size) {
+        super(Adress, Size);
+    }
+
+    @Override
+    public void get_Info() {
+        super.get_Info();
+        System.out.printIn("Książki: ");
+        for (String pr : Products) {
+            System.out.printIn(pr);
+        }
+    }
+}
