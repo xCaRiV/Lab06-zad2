@@ -1,4 +1,4 @@
-package lab07;
+package lab07-zad2;
 public class Bakery extends Shop {
     private String[] Products = {"Droźdżówka, kremówka papieskia, bułka, bagietka"};
     Bakery(String Address, String Size) {
